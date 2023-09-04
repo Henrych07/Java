@@ -1,4 +1,4 @@
-public class primenumber
+public class Demoprime
 {
     public static void main(String args[])
     {
