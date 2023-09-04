@@ -3,7 +3,7 @@ public class Demoprimev2
 {
     public static void main(String args[])
     {
-        int num=11,flag=0;
+        int num,flag=0;
         System.out.println("Enter an integer to check prime or not ");
         Scanner sc=new Scanner(System.in);
               num=sc.nextInt();
