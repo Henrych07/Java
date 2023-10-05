@@ -1,0 +1,24 @@
+//Java programme to demonstrate usage of  final keyword with classes
+//5-10-2023
+//Ch.henry
+//Bike3.java
+import java.io.*;
+public class Bike3
+{
+    void run()
+    {
+        System.out.println("Bike is running");
+    }
+}
+class Honda extends Bike3
+{
+    void run()
+    {
+        System.out.println("Honda runs at 120KMPH");
+    }
+public static void main(String args[])
+{
+    Honda h = new Honda();
+    h.run();
+    }
+}
