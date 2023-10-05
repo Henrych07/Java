@@ -1,0 +1,22 @@
+//Java programme to demonstrate usage of  final keyword with method
+//5-10-2023
+//Ch.henry
+//Bike2.java
+public class Bike2
+{
+    final void run()
+    {
+        System.out.println("Bike is running");
+    }
+}
+class Honda extends Bike2
+{
+    void run()
+    {
+        System.out.println("Honda runs at 120KMPH");
+    }
+public static void main(String args[])
+{
+    Honda h = new Honda();
+    h.run();
+}
