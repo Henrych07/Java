@@ -1,7 +1,7 @@
 //Java programme to demonstrate the usage of super keyword
 //Ch.Henry
 //17-10-2023
-//SuperMethodDemo.java
+//SuperMethodDemo1.java
 import java.io.*;
 class Animal
 {
